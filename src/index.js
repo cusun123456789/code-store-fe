@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React, { Component } from 'react';
 
 import ReactDOM from "react-dom";
@@ -19,7 +20,7 @@ import Blog from './components/blog';
 import BlogDetails from './components/blog-details';
 
 const client = new ApolloClient({
-	uri: 'https://flyby-router-demo.herokuapp.com/',
+	uri: 'https://api-coretore.guen.dev/graphql',
 	cache: new InMemoryCache(),
 });
 

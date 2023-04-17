@@ -36,6 +36,7 @@ class SignUp extends Component {
 			                </div>
 			              </div>
 			              <div className="col-lg-6 col-sm-6 col-12 text-sm-right text-left">
+			              
 			                <a className="forget-pass" href="#">Forgot your password?</a>
 			              </div>
 			            </div>
